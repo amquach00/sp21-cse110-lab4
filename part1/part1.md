@@ -44,14 +44,14 @@ The variable, discountedPrice, defined with "let" keyword is only defined within
   
 11. It will print the value of discounted, which is a new array of items [50,100,150]. Const does not give an error here because we don't try to change it after its intialization, we create a new initialization after every iteration.
   
-12.  
+12. 
 A. student.name  
 B. student['Grad Year']  
 C. student.greeting()  
 D. student['Favorite Teacher'].name  
 E. student.courseLoad[0]  
   
-13. Arithmetics  
+13. Arithmetics 
 A. '32' since integers map to their exact string representations for concatenation  
 B. 1 since strings maps to their exact numerical representions for subtraction  
 C. 3 since null maps to 0  
@@ -73,7 +73,6 @@ F. true because Boolean(2) equates to true and true===true is true
   
 16. Check part1b-question16.js file
 
-Functions
 17. The function takes in an array to be modified, and a function on how the array is going to be modified. The function call modifyArray([1,2,3], doSomething) first creates a new array. Then, the for-loop will loop through each element in the original array, multiplied by 2 due to the callback function, pushed into the new array, and returns [2,4,6].  
 
 18. Check part1b-question18.js file
