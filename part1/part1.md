@@ -44,7 +44,7 @@ The variable, discountedPrice, defined with "let" keyword is only defined within
   
 11. It will print the value of discounted, which is a new array of items [50,100,150]. Const does not give an error here because we don't try to change it after its intialization, we create a new initialization after every iteration.
   
-12. 
+12. Data Types  
 A. student.name  
 B. student['Grad Year']  
 C. student.greeting()  
