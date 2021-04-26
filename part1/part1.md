@@ -1,4 +1,4 @@
-Part 1a.
+##Part 1a.
 1. values added: 20  
 The line is printed because the "var" keyword has no block scope. Even if it has block-scope, the variable result would still be defined and print.  
 
@@ -18,7 +18,7 @@ The variable, result, is initialized with a "const" keyword. Thus, changing it w
 The variable, result, is initialized with a "const" keyword. Thus, changing it will throw an error.  
   
   
-Part 1b.
+##Part 1b.
 1. It will print 3 (prices.length) which is the value of variable, i, because the variable is defined with the "var" keyword which will exists outside the for-loop block. Thus, i will be defined at line 12.  
   
 2. It will print the value of discountedPrice (150) because the var keyword has no block scope. The "var" is either function-scoped or global-scoped.  Thus, discountedPrice is defined at line 13.  
